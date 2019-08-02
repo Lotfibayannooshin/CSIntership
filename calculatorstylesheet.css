@@ -1,0 +1,109 @@
+body{
+    background-color:white;
+  }
+ 
+    }
+   .toolbar{
+       position: static;
+       border: 0ch;
+   }
+    .calculator {
+      position: relative;
+      float: left;
+      left: 15px;
+      top: 5px;
+      font-size: small;
+      }
+    .tools{
+      position:relative;
+      float: right;
+      right: 10px;
+      top: 0px; 
+    }
+    .calmod{
+      position: static;
+      border: 0ch;
+    }
+    .standard{
+      position: relative;
+      float: left;
+      left:5px;
+      top:5px;
+      font-size:large;
+      font-weight: 600;
+    }
+.clock{
+  position:relative;
+      float: right;
+      right: 10px;
+      top: 0px; 
+}
+.input{
+position: relative;
+float: right;
+right: 10px;
+height: 50px;
+padding: 10px;
+bottom:20px;
+background-color: rgb(224, 219, 219);
+font-size: 50px;
+
+}
+.table1{
+  background-color:rgb(224, 219, 219);
+  border: none;
+}
+    .column{
+      width: 55px;
+      height: 20px;
+      text-align:center; 
+      background-color: rgb(224, 219, 219);
+      padding: 5px;
+      padding-left:20px; 
+      padding-right: 20px;
+      font-size: small;
+    
+    }
+    .table2{
+      background-color:rgb(224, 219, 219);
+    }
+    .column2{
+      width: 100px;
+      text-align: center;
+      padding: 15px;
+      padding-left: 20px;
+      padding-right: 20px;
+      font-size: large;
+      background-color: whitesmoke;
+    }
+    .column3{
+      width: 100px;
+      text-align: center;
+      padding: 15px;
+      padding-left: 20px;
+      padding-right: 20px;
+      font-size: larger;
+      background-color: white;
+
+    }
+     .column4{
+      width: 100px;
+      text-align: center;
+      padding: 15px;
+      padding-left: 20px;
+      padding-right: 20px;
+      font-size: large;
+      font-family:'Times New Roman', Times, serif;
+      background-color: whitesmoke;
+     }
+    #section {
+      border:20px;
+      max-width:450px;
+      max-height: 1500px;
+      background-color: rgb(224, 219, 219);
+      border-color: black;
+      text-align: center;
+      font-family: sans-serif, Helvetica, sans-serif;
+
+    }
+    
