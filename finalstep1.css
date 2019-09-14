@@ -1,0 +1,143 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button:focus{
+    outline: none;
+}
+
+html , body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 500px;
+    min-width: 205px;
+    
+    
+}
+
+.mycal {
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction:column;
+    margin: 10px;
+    border: 1px black solid;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 5px;
+    background-color: rgb(224, 219, 219);
+    min-height: 500px;
+}
+
+.calculator-toolbar , .calmod{
+    width: 100%;
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+.calculator {
+    font-size: smaller;
+    float: left;
+    margin: 5px;
+}
+
+.tools{
+    font-size: smaller;
+    float: right;
+    margin: 5px;
+}
+
+.standard{
+    font-size: large;
+    float: left;
+    margin: 5px;
+}
+
+.clock{
+    float: right;
+    margin: 5px;
+}
+
+.history{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+
+.result{
+    width: calc(100% - 2px);
+    height: 100px;
+    text-align: right;
+    font-size: 40px;
+    padding-right: 20px;
+    border: none;
+    background-color: rgb(224, 219, 219);
+}
+
+/*.buttons{
+    width: 100%;
+    height: 63%;
+}*/
+
+.memory-tools{
+    width: calc(100% - 2px);
+    margin: 0 auto;
+    display: flex;
+}
+
+[class*="but-mem"]{
+    width: calc(93% / 6);
+    height: 40px;
+    border: none;
+}
+
+.btn-bold{
+    font-weight: bold;
+}
+[class*="but-mem"] {
+    flex-grow: 1;
+}
+
+[class*="but-mem"]:hover {
+    border: 1px solid rgb(182, 181, 181);
+    background-color:rgb(182, 181, 181);
+}
+
+.table{
+    width: 100%;
+    min-height: 270px;
+}
+
+.column{
+    width: calc(93%/4);
+    
+    text-align: center;
+    background-color: white;
+    flex-grow: 1;
+}
+
+.dif-back-color{
+    background-color: whitesmoke;
+}
+
+.dif-font1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.dif-font2{
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: small;
+}
+@media screen and (max-width:320px) {
+    * #div{
+        flex-direction: column;
+    }
+    
+}
+@media screen and (max-width:205px) {
+    * #div{
+        flex-direction: column;
+    }
+    
+}
